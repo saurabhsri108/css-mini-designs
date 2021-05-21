@@ -1,0 +1,29 @@
+/* Light theme modifications */
+body {
+  background: #131419;
+}
+
+.container {
+  background-color: #131419;
+  box-shadow: 3px 3px 10px #09090c, -3px -3px 10px #262626;
+}
+
+.btns,
+input,
+button {
+  background: #131419;
+}
+
+button,
+.btns div {
+  box-shadow: 2px 2px 4px #09090c, -2px -2px 4px #262626;
+}
+
+input {
+  box-shadow: inset 4px 4px 8px #09090c, inset -4px -4px 8px #262626;
+}
+
+.btns div:active,
+button:active {
+  box-shadow: inset 2px 2px 4px #09090c, inset -2px -2px 4px #262626;
+}
