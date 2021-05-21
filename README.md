@@ -1,2 +1,3 @@
-# css-mini-designs
-Design of different components in CSS
+# CSS Mini Designs
+
+Design of different components in CSS over time.
