@@ -1,26 +1,28 @@
-/* Light theme modifications */
-body {
-  background-color: #131419;
-}
+/* Dark Theme */
+@media(prefers-color-scheme: dark) {
+  body {
+    background-color: #131419;
+  }
 
-.container {
-  background-color: #131419;
-  box-shadow: 14px 14px 20px #09090c, -14px -14px 20px #262626;
-}
+  .container {
+    background-color: #131419;
+    box-shadow: 14px 14px 20px #09090c, -14px -14px 20px #262626;
+  }
 
-.brand-logo {
-  box-shadow: 7px 7px 10px #09090c, -7px -7px 10px #262626;
-}
+  .brand-logo {
+    box-shadow: 7px 7px 10px #09090c, -7px -7px 10px #262626;
+  }
 
-.brand-logo:active {
-  box-shadow: inset 7px 7px 10px #09090c, inset -7px -7px 10px #262626;
-}
+  .brand-logo:active {
+    box-shadow: inset 7px 7px 10px #09090c, inset -7px -7px 10px #262626;
+  }
 
-.form-group input {
-  background: #131419;
-  box-shadow: inset 6px 6px 6px #09090c, inset -6px -6px 6px #262626;
-}
+  .form-group input {
+    background: #131419;
+    box-shadow: inset 6px 6px 6px #09090c, inset -6px -6px 6px #262626;
+  }
 
-.form-group button {
-  box-shadow: 6px 6px 6px #09090c, -6px -6px 6px #262626;
+  .form-group button {
+    box-shadow: 6px 6px 6px #09090c, -6px -6px 6px #262626;
+  }
 }
