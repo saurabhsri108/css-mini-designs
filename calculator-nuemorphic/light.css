@@ -1,29 +1,31 @@
 /* Light theme modifications */
-body {
-  background: #ecf0f3;
-}
+@media(prefers-color-scheme: light) {
+  body {
+    background: #ecf0f3;
+  }
 
-.container {
-  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
-  background: #ecf0f3;
-}
+  .container {
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+    background: #ecf0f3;
+  }
 
-.btns,
-input,
-button {
-  background: #ecf0f3;
-}
+  .btns,
+  input,
+  button {
+    background: #ecf0f3;
+  }
 
-button,
-.btns div {
-  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
-}
+  button,
+  .btns div {
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  }
 
-input {
-  box-shadow: inset 7px 7px 10px #cbced1, inset -7px -7px 10px white;
-}
+  input {
+    box-shadow: inset 7px 7px 10px #cbced1, inset -7px -7px 10px white;
+  }
 
-.btns div:active,
-button:active {
-  box-shadow: inset 7px 7px 10px #cbced1, inset -7px -7px 10px white;
+  .btns div:active,
+  button:active {
+    box-shadow: inset 7px 7px 10px #cbced1, inset -7px -7px 10px white;
+  }
 }
